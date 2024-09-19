@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": "dfc5",
+      "email": "gamer@example.com",
+      "password": "securepassword"
+    },
+    {
+      "id": "f6c0",
+      "email": "gamer@example.com",
+      "password": "securepassword"
+    },
+    {
+      "id": "96c3",
+      "email": "omar@omar.com",
+      "password": "omar"
+    }
+  ],
+  "posts": [
+    {
+      "id": "5114",
+      "title": "Top 10 Gaming Laptops for 2024",
+      "description": "Discover the best gaming laptops that will give you the performance you need for the latest games.",
+      "image": "https://i.ytimg.com/vi/aF_AEwxzM4A/maxresdefault.jpg",
+      "author": "gamer@example.com"
+    },
+    {
+      "id": "9c77",
+      "title": "The Evolution of Gaming Consoles",
+      "description": "A look back at how gaming consoles have evolved from the 80s to now.",
+      "image": "https://i.ytimg.com/vi/Txw6hJJyFVY/maxresdefault.jpg",
+      "author": "gamer@example.com"
+    },
+    {
+      "id": "05ed",
+      "title": "Top 5 Games to Look Forward to in 2024",
+      "description": "Get excited about these upcoming games that are set to make a big impact in 2024.",
+      "image": "https://gaming-cdn.com/images/news/articles/6913/cover/1000x563/according-to-the-game-director-star-wars-outlaws-takes-30-hours-to-beat-cover6669bee6aa2df.jpg",
+      "author": "gamer@example.com"
+    },
+    {
+      "id": "b774",
+      "title": "The Best Gaming Accessories for Hardcore Gamers",
+      "description": "Enhance your gaming experience with these top-rated gaming accessories.",
+      "image": "https://s.yimg.com/ny/api/res/1.2/USpT4r_1F9rJa81T_RmFXQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04NTI-/https://media.zenfs.com/en/variety.com/813523f08e6c7efcd62d7f0fe3167bae",
+      "author": "gamer@example.com"
+    },
+    {
+      "id": "3c13",
+      "title": "How to Build Your Own Gaming PC",
+      "description": "A step-by-step guide to building your own custom gaming PC.",
+      "image": "https://steamuserimages-a.akamaihd.net/ugc/924801404258224458/C0A806FDE94FDF997127225D8D4A60E7E7908C13/?imw=512&amp;imh=288&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true",
+      "author": "gamer@example.com"
+    },
+    {
+      "id": "08f4",
+      "title": "Top 10 Game Genres You Should Try",
+      "description": "Explore different game genres and find out which ones suit your gaming style.",
+      "image": "https://wotpack.ru/wp-content/uploads/2022/11/rasprodazha-igr-na-chernuju-pjatnicu.jpg",
+      "author": "gamer@example.com"
+    }
+  ]
+}

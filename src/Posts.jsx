@@ -13,7 +13,7 @@ const Posts = () => {
 
   const fetchPosts = async () => {
     try {
-      const response = await axios.get('https://blog-omega-teal-28.vercel.app/posts');
+      const response = await axios.get('https://blog-3nk6wyvw3-ahmeds-projects-b2d486f0.vercel.app//posts');
       setPosts(response.data);
     } catch (error) {
       console.error('Error fetching posts:', error);
@@ -22,7 +22,7 @@ const Posts = () => {
 
   const handleDelete = async (postId) => {
     try {
-      await axios.delete(`https://blog-omega-teal-28.vercel.app/posts/${postId}`);
+      await axios.delete(`https://blog-3nk6wyvw3-ahmeds-projects-b2d486f0.vercel.app//posts/${postId}`);
       fetchPosts(); 
     } catch (error) {
       console.error('Error deleting post:', error);

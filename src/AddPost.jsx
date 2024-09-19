@@ -11,7 +11,7 @@ const AddPost = () => {
   const handleAddPost = (e) => {
     e.preventDefault();
     const newPost = { ...post, author: user.email };
-    axios.post('https://blog-omega-teal-28.vercel.app/posts', newPost).then(() => {
+    axios.post('https://blog-3nk6wyvw3-ahmeds-projects-b2d486f0.vercel.app//posts', newPost).then(() => {
       navigate("/");
       setPost({ title: '', description: '', image: '' }); 
     }).catch((error) => {

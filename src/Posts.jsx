@@ -13,7 +13,7 @@ const Posts = () => {
 
   const fetchPosts = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/posts');
+      const response = await axios.get('http://blog-omega-teal-28.vercel.app/posts');
       setPosts(response.data);
     } catch (error) {
       console.error('Error fetching posts:', error);
@@ -22,7 +22,7 @@ const Posts = () => {
 
   const handleDelete = async (postId) => {
     try {
-      await axios.delete(`http://localhost:3000/posts/${postId}`);
+      await axios.delete(`http://blog-omega-teal-28.vercel.app/posts/${postId}`);
       fetchPosts(); 
     } catch (error) {
       console.error('Error deleting post:', error);

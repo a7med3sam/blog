@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000';
+const API_URL = 'http://blog-omega-teal-28.vercel.app';
 
 export const register = async (user) => {
   const response = await axios.post(`${API_URL}/users`, user);

@@ -10,7 +10,7 @@ const EditPost = () => {
   useEffect(() => {
     const fetchPost = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/posts/${id}`);
+        const response = await axios.get(`http://blog-omega-teal-28.vercel.app/posts/${id}`);
         setPost(response.data);
       } catch (error) {
         console.error('Error fetching post:', error);
@@ -23,7 +23,7 @@ const EditPost = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.put(`http://localhost:3000/posts/${id}`, post);
+      await axios.put(`http://blog-omega-teal-28.vercel.app/posts/${id}`, post);
       navigate('/'); 
     } catch (error) {
       console.error('Error updating post:', error);
